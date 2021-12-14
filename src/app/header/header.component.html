@@ -1,0 +1,43 @@
+<mat-toolbar class="main">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon (click)="drawer.toggle()" >menu</mat-icon>
+      </button>
+
+      
+        <mat-drawer #drawer id="drawerd" mode="over">
+          
+       
+          <button id="btn" mat-stroked-button color="black" routerLink="/aboutme">About Me</button>
+          
+            <button  id="btn" mat-stroked-button color="black" routerLink="/education">Education</button>
+           
+            <button id="btn" mat-stroked-button color="black" routerLink="/experience">Experience</button>
+           
+            <button id="btn"  mat-stroked-button color="black" routerLink="/projects">Projects</button>
+           
+           
+        
+          
+        
+        </mat-drawer>
+      
+       
+      
+   
+     
+
+      <span class="example-spacer"></span>
+      
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon">
+        <mat-icon svgIcon =facebook onClick="window.open('https://www.facebook.com/shivam.sahdev.75')">facebook</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon svgIcon =twitter onClick="window.open('https://twitter.com/ShivamSahdev')">linkedin</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon svgIcon =linkedin onClick="window.open('https://www.linkedin.com/in/shivam-sahdev/')">linkedin</mat-icon>
+      </button>
+  </mat-toolbar>
+
+  
