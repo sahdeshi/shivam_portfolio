@@ -1,0 +1,22 @@
+#abouttext{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-family:  sans-serif;
+    }
+    #aboutcard{
+        background-color: transparent;
+        text-align: center;
+    }
+    
+    .Incard{
+        
+      background-color: whitesmoke;
+    }
+    #sub{
+        font-size: 15px;
+        color: black;
+    }
+    p{
+        font-size: 15px;
+    }
